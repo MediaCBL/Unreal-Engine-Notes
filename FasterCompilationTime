@@ -12,3 +12,5 @@ C:\Users\xxx\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xm
                 <ProcessorCountMultiplier>2</ProcessorCountMultiplier>
         </ParallelExecutor>
 </Configuration>
+
+Souce : https://forums.unrealengine.com/t/how-to-use-all-cpu-core-when-ue5-make-installed-build-from-source/552889/5
