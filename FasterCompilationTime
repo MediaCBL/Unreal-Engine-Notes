@@ -1,0 +1,14 @@
+Use all cpu core to compile Unreal Engine
+
+C:\Users\xxx\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml, add ProcessorCountMultiplier tell unreal use two thread
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration xmlns="https://www.unrealengine.com/BuildConfiguration">
+        <BuildConfiguration>
+                <MaxParallelActions>16</MaxParallelActions>
+        </BuildConfiguration>
+        <ParallelExecutor>
+                <MaxProcessorCount>16</MaxProcessorCount>
+                <ProcessorCountMultiplier>2</ProcessorCountMultiplier>
+        </ParallelExecutor>
+</Configuration>
